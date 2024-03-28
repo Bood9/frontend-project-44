@@ -28,4 +28,3 @@ export const playGame = (rules, generateRound) => {
     export const getRandomNumber = (min, max) => Math.round(Math.random() * (max - min) + min);
 
 
-13
