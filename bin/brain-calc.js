@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { playGame, getRandomNumber } from '../src/Nikola.js';
+import { playGame, getRandomNumber } from '../src/util.js';
 
 const rules = 'What is the result of the expression?';
 const correctAnswer = (num1, operator, num2) => {
