@@ -4,17 +4,15 @@ env:
   es2021: true
 extends:
    airbnb-base
-   prettier
 overrides: []
 parserOptions:
   ecmaVersion: latest
   sourceType: module
+  import/extensions: 0
+  no-console: 0
+rules:
+  no-console: 0
   import/extensions:
     - error
-    # - ignorePackages
-    - js: always
-  no-console: 0
-rules: {
-  'no-console': 0
-  'indent': 0
-}
+    - js: ignorePackages
+	
