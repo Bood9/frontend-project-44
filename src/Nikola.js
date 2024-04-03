@@ -17,6 +17,10 @@ export const playGame = (rules, generateRound) => {
                 console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
                 console.log(`Let's try again, ${name}!`);
                 break;
+                
+            }
+            if (i === round - 1) {
+                console.log(`Congratulations, ${name}!`);
             }
         }
         
