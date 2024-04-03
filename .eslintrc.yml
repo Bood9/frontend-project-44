@@ -7,7 +7,9 @@ overrides: []
 parserOptions:
   ecmaVersion: latest
   sourceType: module
-rules:
+rules:{
+  'indent':'off',
+  'react/jsx-indent':'off',
   import/extensions:
     - error
     # - ignorePackages
