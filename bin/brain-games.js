@@ -1,4 +1,2 @@
 #!/usr/bin/env node
-import { greeting } from '../src/cli.js';
-
-greeting();
+import { name } from '../src/cli.js'; // eslint-disable-line no-unused-vars
