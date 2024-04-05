@@ -1,4 +1,4 @@
-import { questionModule } from '../cli.js';
+import questionModule  from '../cli.js';
 
 export default function brainCalc() {
   function randomIntFromInterval(min, max) {
