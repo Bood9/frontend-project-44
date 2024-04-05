@@ -5,7 +5,7 @@ export const rng = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 console.log('Welcome to the Brain Games!');
 export const name = readlineSync.question('May I have your name? ');
 console.log(`Hello, ${name}!`);
- function questionModule(answer, correctAnswer, numOrStr = 'str') {
+ export function questionModule(answer, correctAnswer, numOrStr = 'str') {
   console.log(`Question: ${answer}`);
   if (numOrStr === 'num') {
     const question = readlineSync.question('Your answer: ');
@@ -39,4 +39,3 @@ export function roundGen(game) {
     }
   }
 }
-export default questionModule;
